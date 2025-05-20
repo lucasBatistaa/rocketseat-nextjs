@@ -1,5 +1,6 @@
-import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+
+import Header from "@/components/header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div className="min-h-screen full min-w-full bg-slate-500">
+    <div className={`${geistSans.variable} ${geistMono.variable} grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}>
+      <Header/>
       <h2 className="text-4xl text-red  -400">Title</h2>
     </div>
   );
