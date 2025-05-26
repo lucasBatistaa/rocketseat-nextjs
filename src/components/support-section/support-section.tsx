@@ -6,7 +6,7 @@ const ptSansCaption = PT_Sans_Caption({
     weight: '700'
 })
 
-export function FeatureSupport() {
+export function SupportSection() {
     return (
         <section className="container pb-8 mdpy-10 bg-gradient-to-r from-gray-500 to-gray-700">
             <div className="flex flex-col items-center gap-12">
