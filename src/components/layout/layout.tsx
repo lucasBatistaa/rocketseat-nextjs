@@ -24,7 +24,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className={`${inter.className} ${ptSansCaption.className}relative flex min-h-screen flex-col bg-gray-700 font-inter`}>
             <Header />
 
-            <main className="flex-1 flex flex-col mt-10 mb-12">
+            <main className="flex-1 flex flex-col  mb-12">
                 {children}
             </main>
 

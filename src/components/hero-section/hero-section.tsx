@@ -7,10 +7,10 @@ export function HeroSection() {
     return (
         <section className="container relative flex items-center justify-center mt-16">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 min-h-[20rem] md:h-[36rem] items-center">
-                <div className="flex flex-col items-center justify-center gap-4 md:items-start lg:items-start">
-                    <h1 className="text-heading-hg text-gray-100 font-sans">Venda seus produtos como afiliado em um único lugar</h1>
+                <div className="flex flex-col items-center justify-center gap-4 md:items-start">
+                    <h1 className="text-heading-hg text-gray-100 font-sans text-center md:text-left">Venda seus produtos como afiliado em um único lugar</h1>
 
-                    <div className="flex flex-col items-center justify-center gap-4 ">
+                    <div className="flex flex-col items-center md:items-start justify-center gap-4 ">
                         <div className="">
                             <div className="flex gap-3 items-center">
                                 <Clock className="text-cyan-100 h-5 w-5" />
@@ -25,8 +25,8 @@ export function HeroSection() {
                             </div>
                         </div>
 
-                        <div className="flex flex-col gap-2 mt-5 items-center md:items-start lg:items-start">
-                            <Button className="rounded-full w-fit" asChild>
+                        <div className="flex flex-col gap-2 mt-5">
+                            <Button className="rounded-full" asChild>
                                 <Link href='/criar-loja'>
                                     Criar loja grátis
                                     <ArrowRight className="text-white" />
