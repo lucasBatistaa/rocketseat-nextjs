@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { Logo } from "../logo";
+import { Logo } from "../../logo";
 
 export function Footer() {
     return (
         <footer className="bg-gray-500">
-            <div className="mx-auto max-w-7xl px-6 md:px-[200px] py-8">
+            <div className="mx-auto max-w-7xl px-6 md:px-8 py-8">
                 <div className="flex items-start md:items-center justify-between md:flex-row gap-8">
                     <Logo />
 
